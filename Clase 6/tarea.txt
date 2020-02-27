@@ -1,0 +1,1 @@
+Hacer un repositorio nuevo en cada tarea que hicimos hasta ahora. En cada carpeta ingresar y escribir git init para iniciar el repo, git add seleccionando por archivo o todos los archivos al mismo tiempo, depende como deseemos hacerlo, y por ultimo git commit -m "algun mensaje"

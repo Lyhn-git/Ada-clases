@@ -1,0 +1,11 @@
+#AEBFBF
+
+#748080
+
+#E8FFFF
+
+#3F4545
+
+#D1E6E6
+
+si deseas utilizar diferentes paddings seria en uno solo padding: 25px 10px o padding: 25px 10p 25px 15px sería padding: arriba, derecha, abajo, izquierda

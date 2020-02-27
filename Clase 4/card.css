@@ -1,0 +1,101 @@
+body {
+    margin: 5px;
+    padding: 25px;
+    background-color: rgba(106, 115, 122, 0.486);
+    font-family: 'Nunito';
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+}
+
+.card {
+    border: 5px solid rgba(0, 0, 0, 0.726);
+    box-shadow: 0 0 15px rgb(43, 43, 43);
+    width: 350px;
+    display: inline-block;
+    background-color: blanchedalmond;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.one{
+    background-color: rgb(205, 223, 255);
+    width:290px;
+}
+
+.two{
+    height: 700px;
+}
+.three {
+    background-color: rgb(255, 205, 205);
+    width:290px;
+}
+
+.imagen {
+    max-width: 250px;
+    max-height: 250px;
+    box-shadow: 0 0 18px rgb(53, 53, 53);
+}
+
+h1 {
+    font-size: 33px;
+}
+
+h2 {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.658);
+}
+.price {
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+p {
+    padding: 15px;
+}
+
+.btn {
+    color: mediumblue;
+    font-size:20px;
+    padding: 2px;
+    width: 150px;
+    background-color: lightskyblue;
+    border: 1px solid blue;
+    border-radius: 25px;
+    cursor: pointer;
+    display: inline-block;
+    transition: 0.5s;
+}
+
+.btn:hover{
+    background-color: rgb(42, 166, 243);
+    width: 160px;
+}
+
+.arrow {
+    display: inline-block;
+    width: 2vmin;
+    height: 2vmin;
+    background: transparent;
+    border-top: 1vmin solid white;
+    border-right: 1vmin solid white;
+    box-shadow: 0 0 0 lightgray;
+    transition: all 200ms ease;   
+    transform: rotate(55deg);
+    border-color:rgba(255, 137, 3, 0.822);
+    margin-bottom: 15%;
+}
+
+.right {
+    transform: rotate(225deg);
+}
+   
+.arrow:hover {
+     border-color:rgba(12, 12, 12, 0.726);
+     box-shadow: 0.5vmin -0.5vmin 0 rgb(224, 192, 155);
+    }
