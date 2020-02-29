@@ -1,0 +1,19 @@
+
+Descripción
+📑 Temas
+
+Como funciona git con repositorios remotos
+Git remote
+Github - Crear un nuevo repo
+Git clone
+Git push
+Git pull
+
+
+tarea
+
+💻 Tarea
+
+Por cada repositorio creado en la tarea pasada, hacer un nuevo repositorio en github.
+Conectar nuestros repositorios locales con los de github
+Subir nuestro codigo a los repositorios
