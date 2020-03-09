@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arvo', serif;
+    color: #292828;
+    text-align: center;
+}
+
+body {
+    background-image: url("./assets/images/fondo.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main {
+    background-color: rgba(226, 224, 224, 0.363);
+    justify-self: center;
+    align-self: center;
+}
+
+
+/*----------------HEADER-----------------*/
+
+header nav {
+    padding: 10px;
+    text-align: right;
+}
+
+header nav a {
+    text-align: start;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 15px 30px;
+    font-size: 1.3em;
+    list-style: none;
+}
+
+.vertical {
+    display: inline-block;
+    width: 1vmin;
+    height: 5vmin;
+    background: transparent;
+    border-right: 2px solid rgb(255, 255, 255);
+    box-shadow: 0 0 0 lightgray;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: -8px;
+}
+
+
+/*------------------HEADER------------------------*/
+
+
+/*-------------------MAIN-------------------------*/
+
+.principal {
+    display: block;
+}
+
+.principal h1 {
+    font-family: 'Odibee Sans', cursive;
+    max-width: 100%;
+    margin: 50px;
+    font-size: 4.5em;
+    text-transform: uppercase;
+    text-align: left;
+    line-height: 0.75em;
+    letter-spacing: 0.2em;
+    color: #ffffffc5;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+    padding-top: 50px;
+}
+
+.principal img {
+    max-width: 200px;
+    box-shadow: -30px -30px 1.5px rgba(29, 29, 29, 0.459);
+}
+
+.descripcion {
+    display: inline-block;
+    margin: 30px;
+    max-width: 500px;
+}
+
+.principal .sub {
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: left;
+}
+
+.separador {
+    border: 1px solid rgb(255, 255, 255);
+    width: 70%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.principal .des {
+    text-align: justify;
+}
+
+
+/*---------------------MAIN------------------------*/
+
+
+/*-------------------FOOTER------------------------*/
+
+footer {
+    width: 100%;
+    height: 15vh;
+    bottom: 0;
+    position: fixed;
+    background-color: rgba(39, 39, 39, 0.527);
+}
+
+footer .icons {
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+footer a {
+    padding: 15px;
+}
+
+footer p {
+    color: rgba(255, 255, 255, 0.589);
+    text-shadow: 1px 1px 2px black;
+    font-size: 16px;
+    padding-right: 10px;
+    padding-top: 10px;
+    margin: 0;
+    line-height: 25px;
+    height: 100%;
+}
+
+
+/*-------------------FOOTER------------------------*/
