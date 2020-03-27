@@ -133,6 +133,26 @@ form .textbox {
 .content-3 {
     flex-direction: column;
     height: 950px;
+    text-align: center;
+}
+
+.fila1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+    height: 200px;
+    background-color: powderblue;
+}
+
+.card i {
+    color: palevioletred;
 }
 
 footer {
@@ -151,21 +171,23 @@ footer a {
 }
 
 footer img {
-    margin-right: 25px;
-    margin-bottom: 15px;
-    margin-top: 20px;
+    transform: rotate(95deg);
 }
 
 .content-4 {
-    background-color: rgba(163, 147, 125, 0.215);
+    background-color: rgba(167, 157, 143, 0.215);
+    display: flex;
+    flex-direction: row;
     align-items: center;
-    justify-content: space-between;
     height: 450px;
 }
 
+.content-4 i {
+    margin: 0;
+}
+
 .conright {
-    margin-left: 300px;
-    width: 1000px;
+    margin-left: 200px;
 }
 
 .conright form {
@@ -173,11 +195,19 @@ footer img {
     margin: 10px;
 }
 
-.conright form input {
-    margin: 10px;
+.conright form input,
+.coments {
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.493);
 }
 
 .conleft {
-    width: 1000px;
-    line-height: 20px;
+    width: 800px;
+    line-height: 45px;
+}
+
+.namemail {
+    display: flex;
+    flex-direction: row;
 }

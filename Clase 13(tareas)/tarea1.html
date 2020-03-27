@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea 1</title>
+    <link rel="stylesheet" href="./styles_tarea1.css">
+</head>
+
+<body>
+    <div class="card">
+        <header>
+            <div>
+                <h1>SHPPNG</h1>
+            </div>
+
+            <div>
+                <nav class="menu">
+                    <ul>
+                        <li class="sb">Shopping bag </li>
+                        <img src="./assets/right.svg" class="flecha">
+                        <li>Checkout </li>
+                        <img src="./assets/right.svg" class="flecha">
+                        <li>Confirmation</li>
+                    </ul>
+                </nav>
+            </div>
+
+
+            <img src="./assets/carrito.svg" class="shoppingcar">
+
+        </header>
+        <div class="columnas">
+            <div class="izquierda">
+                <h2>Personal information</h2>
+                <form>
+                    <div class="nombres">
+                        <div><label for="name">First Name</label><br>
+                            <input type="text" placeholder="Adrien" name="name"> </div>
+
+                        <div><label>Last name</label> <br>
+                            <input type="text" placeholder="Gervaix"> </div>
+
+                    </div>
+
+                    <label>Email Address</label> <br/>
+                    <input type="email" placeholder="adrien.gervaix@gmail.com" class="mail">
+
+                    <br>
+
+                    <label>Street</label> <br/>
+                    <input type="text" placeholder="284, Place de la bourse" class="street">
+
+                    <div class="address">
+                        <div> <label for="">City</label> <br/>
+                            <input type="text" placeholder="Lille" class="city"></div>
+
+                        <div> <label>Country</label> <br/>
+                            <select name="paises" class="paises">
+                                    <option value="1" selected>France</option>
+                                    <option value="2">United States</option>
+                                    <option value="3">Spain</option>
+                                    <option value="4">United Kingdom</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <label>Phone number</label> <br/>
+                    <div class="telefono">
+                        <select name="codigo" class="cod"> 
+                            <option value="3">+1</option>
+                             <option value="1" selected>+33</option>
+                             <option value="2">+34</option>
+                             <option value="3">+44</option>
+                             <input type="tel" placeholder="612 34 56 78" class="telf">     
+                        </select>
+                    </div>
+
+                </form>
+
+            </div>
+
+            <div class="derecha">
+                <div class="contenido">
+                    <h2>Delivery</h2>
+
+                    <p>Delivery time</p>
+
+                    <div class="options">
+                        <div class="cuadrado op1">
+                            <h3>0$</h3>
+                            <p>3-4 weeks</p>
+                        </div>
+                        <div class="cuadrado op2">
+                            <h3>5$</h3>
+                            <p>2-5 days</p>
+                        </div>
+                    </div>
+
+                    <p>Estimated delivery date: <strong>August 4th.</strong>
+                        <br> Every package has a tracking number.</p>
+
+
+                </div>
+                <div class="form">
+                    <form>
+                        <div class="suscribir">
+                            <input type="checkbox" name="subscribe">
+                            <label for="subscribe">Subscribe to our newsletter</label>
+                        </div>
+                        <div class="account">
+                            <input type="checkbox" name="create">
+                            <label for="create">Create an account</label>
+                        </div>
+
+                        <input type="submit" value="Confirm my order" class="botonconfirm">
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

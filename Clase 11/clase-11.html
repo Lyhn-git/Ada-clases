@@ -72,17 +72,17 @@
             <div class="barra"></div>
             <h3>We offer</h3>
             <div class="cards">
-                <ul class="weoffer">
-                    <li>
-                        <img src="" alt="icon-1">
+                <div class="fila1">
+                    <div class="card">
+                        <i class="fa fa-power-off fa-3x mb-2" aria-hidden="true"></i>
                         <h1> Power</h1>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rutrum elit sed elit volutpat convallis. Vestibulum nisl justo, condimentum ut iaculis quis, laoreet
                         </p>
-                    </li>
+                    </div>
 
                     <li>
-                        <img src="" alt="icon-2">
+                        <i class="fa fa-star fa-3x mb-2" aria-hidden="true"></i>
                         <h1> Clients</h1>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rutrum elit sed elit volutpat convallis. Vestibulum nisl justo, condimentum ut iaculis quis, laoreet
@@ -90,15 +90,18 @@
                     </li>
 
                     <li>
-                        <img src="" alt="icon-3">
+                        <i class="fa fa-lock fa-3x mb-2" aria-hidden="true"></i>
                         <h1> Projects</h1>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rutrum elit sed elit volutpat convallis. Vestibulum nisl justo, condimentum ut iaculis quis, laoreet
                         </p>
                     </li>
-
+                </div>
+                <div class="fila2">
                     <li>
-                        <img src="" alt="icon-4">
+
+                        <i class="fa fa-heart-o fa-3x mb-2" aria-hidden="true"></i>
+
                         <h1> Favorite</h1>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rutrum elit sed elit volutpat convallis. Vestibulum nisl justo, condimentum ut iaculis quis, laoreet
@@ -106,7 +109,7 @@
                     </li>
 
                     <li>
-                        <img src="" alt="icon-5">
+                        <i class="fa fa-lightbulb-o fa-3x mb-2" aria-hidden="true"></i>
                         <h1> Clean code</h1>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rutrum elit sed elit volutpat convallis. Vestibulum nisl justo, condimentum ut iaculis quis, laoreet
@@ -114,13 +117,13 @@
                     </li>
 
                     <li>
-                        <img src="" alt="icon-6">
+                        <i class="fa fa-certificate fa-3x mb-2" aria-hidden="true"></i>
                         <h1> Certificate</h1>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rutrum elit sed elit volutpat convallis. Vestibulum nisl justo, condimentum ut iaculis quis, laoreet
                         </p>
                     </li>
-
+                </div>
                 </ul>
             </div>
         </section>
@@ -128,18 +131,22 @@
         <section class="conte content-4">
 
             <div class="conleft">
-                <p>Contact us and we'll get back to you within 24 hours.</p>
-                <p> <i class="fa fa-map-marker text-primary  mr-2" aria-hidden="true"></i>Yerevan,Armenia</p>
-                <p><i class="fa fa-mobile text-primary mr-2" aria-hidden="true"></i>+00 1515151515</p>
-                <p><i class="fa fa-envelope text-primary  mr-2" aria-hidden="true"></i>myemail@something.com</p>
+                <p>Contact us and we'll get back to you within 24 hours. <br/>
+                    <i class="fa fa-map-marker text-primary  mr-2" aria-hidden="true"></i>Yerevan,Armenia <br/>
+                    <i class="fa fa-mobile text-primary mr-2" aria-hidden="true"></i>+00 1515151515 <br/>
+                    <i class="fa fa-envelope text-primary  mr-2" aria-hidden="true"></i>myemail@something.com
+                </p>
             </div>
 
             <div class="conright">
                 <h1>Contact</h1>
                 <form>
-                    <input type="text" name="name" placeholder=" Name" class="textbox">
-                    <input type="text" name="email" placeholder=" Email" class="textbox">
-                    <input type="text" name="email" placeholder=" Comments" class="textbox">
+                    <div class="namemail">
+                        <input type="text" name="name" placeholder=" Name" class="textbox">
+                        <input type="text" name="email" placeholder=" Email" class="textbox">
+                    </div>
+                    <textarea name="coments" placeholder=" Comments" class="textbox coments" rows="5"></textarea>
+                    <br>
                     <input type="submit" value="Send" class="btn">
                 </form>
             </div>

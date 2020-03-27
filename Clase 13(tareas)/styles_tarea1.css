@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(73, 73, 73);
+}
+
+body {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: mediumpurple;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 80vw;
+    background-color: white;
+    box-shadow: 0px 10px 40px black;
+    border-radius: 5px;
+}
+
+
+/*--------header-------*/
+
+header {
+    display: flex;
+    flex-direction: row;
+    height: 15%;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    color: mediumpurple;
+}
+
+.shoppingcar {
+    max-width: 40px;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu ul li {
+    text-decoration: none;
+    list-style: none;
+    color: rgb(207, 207, 207);
+    width: 110px;
+    text-align: center;
+}
+
+.flecha {
+    max-width: 10px;
+}
+
+
+/*----------------------------*/
+
+.columnas {
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    height: 75%;
+    text-align: left;
+}
+
+label {
+    font-size: 13px;
+    color: grey;
+    padding: 5px;
+    padding-bottom: 15px;
+}
+
+input,
+select {
+    padding: 10px;
+    border: 1px solid rgb(175, 175, 175);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 17px;
+    color: rgb(54, 54, 54);
+}
+
+
+/*----------Izquierda----------*/
+
+.izquierda {
+    background-color: rgb(241, 239, 241);
+    border: 1px solid rgb(219, 219, 219);
+    padding: 5%;
+    height: 80%;
+    width: 35%;
+}
+
+.izquierda h2 {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 5%;
+}
+
+.nombres,
+.address {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nombres input,
+.city,
+.paises {
+    width: 170px;
+}
+
+.mail,
+.street {
+    width: 95%;
+}
+
+.cod {
+    background-color: rgb(206, 206, 206);
+    border: none;
+    padding: 10px;
+    margin: 0;
+}
+
+.telf {
+    border: none;
+    padding: 10px;
+    margin: 0;
+}
+
+.telefono {
+    border: 1px solid rgb(175, 175, 175);
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    border-radius: 2px;
+}
+
+.telefono:hover {
+    border: 1px solid mediumpurple;
+}
+
+
+/*----------------------------*/
+
+
+/*----------Derecha-----------*/
+
+.derecha {
+    height: 80%;
+    width: 35%;
+}
+
+.contenido {
+    background-color: rgb(241, 239, 241);
+    border: 1px solid rgb(219, 219, 219);
+    padding: 15%;
+    height: 50%;
+    width: 100%;
+}
+
+.contenido h2 {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 5%;
+}
+
+
+/* position: absolute;
+    top: 100px;
+}
+
+.derecha form {
+    position: absolute;
+    bottom: 100px;
+} */
+
+
+/*----------------------------*/

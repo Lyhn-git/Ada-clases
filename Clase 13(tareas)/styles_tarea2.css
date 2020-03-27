@@ -1,0 +1,157 @@
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    body {
+        background-color: rgb(81, 186, 228);
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .card {
+        border-radius: 15px;
+        overflow: hidden;
+        width: 30vw;
+        display: flex;
+        flex-direction: column;
+        /* box-shadow: 2px 0px 5px rgb(85, 85, 85); */
+    }
+    /*----------------Arriba---------------*/
+    
+    .arriba {
+        background-image: url(./assets/fondo.jpg);
+        background-position: bottom;
+        height: 38vh;
+        position: relative;
+    }
+    
+    .circulo {
+        color: white;
+        background-color: palevioletred;
+        width: 100px;
+        height: 100px;
+        border-radius: 100px;
+        margin: 25px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .rectangulo {
+        color: white;
+        background-color: rgb(64, 173, 224);
+        height: 36px;
+        width: 130px;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        position: absolute;
+        bottom: 25px;
+        left: 25px;
+    }
+    /*--------------------------------*/
+    /*---------------Abajo-----------------*/
+    
+    .abajo {
+        background-color: white;
+        height: 48vh;
+        position: relative;
+        text-align: left;
+    }
+    
+    .abajo h1 {
+        color: rgb(95, 94, 94);
+        font-size: 35px;
+        padding: 30px;
+    }
+    
+    .abajo p {
+        color: rgb(177, 177, 177);
+        font-size: 12px;
+        padding-left: 30px;
+    }
+    
+    .fechas {
+        display: flex;
+        margin-left: 15px;
+    }
+    
+    .fecha {
+        margin: 15px;
+        background-color: rgb(223, 223, 223);
+        width: 50px;
+        height: 55px;
+        border-radius: 7px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .fecha p {
+        color: white;
+        text-align: center;
+        font-size: 16px;
+        padding: 0;
+    }
+    /*--------------------------------*/
+    
+    hr {
+        background-color: rgba(14, 14, 14, 0.274);
+        border: 0;
+        width: 90%;
+        height: 1px;
+        position: absolute;
+        left: 5%;
+    }
+    /*-------------Footer---------------*/
+    
+    .footer {
+        display: flex;
+        /*  position:relative; */
+    }
+    
+    .footer img {
+        max-width: 30px;
+    }
+    
+    .likes {
+        position: absolute;
+        left: 40px;
+        bottom: 40px;
+    }
+    
+    .guardados {
+        position: absolute;
+        left: 120px;
+        bottom: 40px;
+    }
+    
+    .contador p {
+        font-size: 15px;
+        color: rgb(177, 177, 177);
+        padding-left: 5px;
+    }
+    
+    .contador {
+        display: flex;
+        align-items: center;
+        text-align: left;
+    }
+    
+    .menu {
+        max-width: 30px;
+        position: absolute;
+        bottom: 40px;
+        right: 40px;
+    }
+    /*--------------------------------*/

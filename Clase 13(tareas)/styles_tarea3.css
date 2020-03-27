@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: rgb(221, 183, 183);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card {
+    border-radius: 15px;
+    overflow: hidden;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 2px 0px 5px rgb(85, 85, 85);
+}
+
+
+/*--------------Izquierda-------------*/
+
+.izquierda {
+    background-color: white;
+    width: 25vw;
+    padding: 50px;
+    color: rgb(85, 85, 85);
+}
+
+.izquierda p {
+    color: gray;
+}
+
+.shoe {
+    max-width: 300px;
+}
+
+.dots {
+    display: flex;
+    justify-content: center;
+}
+
+.dot {
+    background-color: rgb(168, 168, 168);
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+
+.medio {
+    background-color: turquoise;
+}
+
+.dot:hover {
+    background-color: turquoise;
+}
+
+.dot:active {
+    background-color: rgb(42, 150, 139);
+}
+
+.izquierda h2 {
+    font-size: 3em;
+    padding: 35px;
+    font-family: 'Playfair Display', serif;
+    font-weight: lighter;
+}
+
+.izquierda h1 {
+    padding: 10px;
+    font-family: 'Playfair Display', serif;
+    font-weight: lighter;
+}
+
+
+/*---------------------------------------*/
+
+
+/*-----------------Derecha---------------*/
+
+.derecha {
+    background-color: rgb(85, 85, 85);
+    width: 25vw;
+    padding: 50px;
+    color: seashell;
+}
+
+.visa {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.chip {
+    max-width: 70px;
+    padding-right: 20px;
+}
+
+.derecha h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: lighter;
+}
+
+.datos {
+    text-align: left;
+    padding-top: 45px;
+}
+
+.derecha h3 {
+    font-size: 12px;
+    color: rgb(187, 180, 175);
+    font-weight: lighter;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+.derecha p {
+    font-size: 20px;
+    padding-bottom: 20px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.lineas {
+    display: flex;
+}
+
+.linea1 {
+    margin-right: 20px;
+}
+
+.btn {
+    position: relative;
+    width: 350px;
+    background-color: rgb(49, 173, 161);
+    border-radius: 75px;
+    border: none;
+    height: 60px;
+    color: white;
+    margin-top: 70px;
+    font-size: 20px;
+}
+
+.btn img {
+    text-align: right;
+    color: white;
+    position: absolute;
+    right: 15px;
+    top: 17px;
+}
+
+
+/*---------------------------------------*/
