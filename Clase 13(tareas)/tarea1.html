@@ -31,53 +31,58 @@
             <img src="./assets/carrito.svg" class="shoppingcar">
 
         </header>
+
         <div class="columnas">
             <div class="izquierda">
                 <h2>Personal information</h2>
-                <form>
-                    <div class="nombres">
-                        <div><label for="name">First Name</label><br>
-                            <input type="text" placeholder="Adrien" name="name"> </div>
+                <div class="formizquierda">
 
-                        <div><label>Last name</label> <br>
-                            <input type="text" placeholder="Gervaix"> </div>
+                    <form>
+                        <div class="nombres">
+                            <div><label for="name">First Name</label><br>
+                                <input type="text" placeholder="Adrien" name="name"> </div>
 
-                    </div>
+                            <div><label>Last name</label> <br>
+                                <input type="text" placeholder="Gervaix"> </div>
 
-                    <label>Email Address</label> <br/>
-                    <input type="email" placeholder="adrien.gervaix@gmail.com" class="mail">
+                        </div>
 
-                    <br>
+                        <label>Email Address</label> <br/>
+                        <input type="email" placeholder="adrien.gervaix@gmail.com" class="mail">
 
-                    <label>Street</label> <br/>
-                    <input type="text" placeholder="284, Place de la bourse" class="street">
+                        <br>
 
-                    <div class="address">
-                        <div> <label for="">City</label> <br/>
-                            <input type="text" placeholder="Lille" class="city"></div>
+                        <label>Street</label> <br/>
+                        <input type="text" placeholder="284, Place de la bourse" class="street">
 
-                        <div> <label>Country</label> <br/>
-                            <select name="paises" class="paises">
+                        <div class="address">
+                            <div> <label for="">City</label> <br/>
+                                <input type="text" placeholder="Lille" class="city"></div>
+
+                            <div> <label>Country</label> <br/>
+                                <select name="paises" class="paises">
                                     <option value="1" selected>France</option>
                                     <option value="2">United States</option>
                                     <option value="3">Spain</option>
                                     <option value="4">United Kingdom</option>
                             </select>
+                            </div>
                         </div>
-                    </div>
 
-                    <label>Phone number</label> <br/>
-                    <div class="telefono">
-                        <select name="codigo" class="cod"> 
+                        <label>Phone number</label> <br/>
+                        <div class="telefono">
+                            <select name="codigo" class="cod"> 
                             <option value="3">+1</option>
                              <option value="1" selected>+33</option>
                              <option value="2">+34</option>
                              <option value="3">+44</option>
                              <input type="tel" placeholder="612 34 56 78" class="telf">     
                         </select>
-                    </div>
+                        </div>
 
-                </form>
+                    </form>
+                </div>
+
 
             </div>
 
@@ -85,22 +90,25 @@
                 <div class="contenido">
                     <h2>Delivery</h2>
 
-                    <p>Delivery time</p>
+                    <div class="formderecha">
+                        <p>Delivery time</p>
 
-                    <div class="options">
-                        <div class="cuadrado op1">
-                            <h3>0$</h3>
-                            <p>3-4 weeks</p>
+                        <div class="options">
+                            <buttom class="cuadrado op1">
+                                <h3>0$</h3>
+                                <p>3-4 weeks</p>
+                            </buttom>
+                            <buttom class="cuadrado op2">
+                                <h3>5$</h3>
+                                <p>2 - 5 days</p>
+                            </buttom>
                         </div>
-                        <div class="cuadrado op2">
-                            <h3>5$</h3>
-                            <p>2-5 days</p>
-                        </div>
+
+                        <p class="estimated">Estimated delivery date: <strong>August 4th.</strong>
+                            <br> Every package has a tracking number.</p>
+
+
                     </div>
-
-                    <p>Estimated delivery date: <strong>August 4th.</strong>
-                        <br> Every package has a tracking number.</p>
-
 
                 </div>
                 <div class="form">

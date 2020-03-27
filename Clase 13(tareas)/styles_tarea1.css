@@ -16,10 +16,7 @@ body {
 }
 
 .card {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    position: relative;
     height: 80vh;
     width: 80vw;
     background-color: white;
@@ -31,6 +28,9 @@ body {
 /*--------header-------*/
 
 header {
+    position: absolute;
+    top: 0px;
+    left: 10%;
     display: flex;
     flex-direction: row;
     height: 15%;
@@ -67,19 +67,45 @@ header h1 {
 /*----------------------------*/
 
 .columnas {
-    display: flex;
     width: 90%;
-    justify-content: space-evenly;
-    align-items: flex-start;
-    height: 75%;
+    height: 80%;
+    position: absolute;
+    top: 100px;
+    left: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.izquierda,
+.derecha {
+    width: 48%;
+    height: 100%;
     text-align: left;
 }
 
-label {
+.izquierda {
+    background-color: rgb(241, 239, 241);
+    border: 1px solid rgb(219, 219, 219);
+}
+
+.contenido {
+    background-color: rgb(241, 239, 241);
+    border: 1px solid rgb(219, 219, 219);
+    height: 60%;
+}
+
+h2 {
+    text-align: center;
+    font-size: 22px;
+    padding-top: 10%;
+}
+
+label,
+.formderecha p {
     font-size: 13px;
     color: grey;
-    padding: 5px;
     padding-bottom: 15px;
+    padding-left: 20px;
 }
 
 input,
@@ -87,26 +113,29 @@ select {
     padding: 10px;
     border: 1px solid rgb(175, 175, 175);
     margin-top: 5px;
+    margin-left: 5px;
     margin-bottom: 5px;
     font-size: 17px;
     color: rgb(54, 54, 54);
 }
 
-
-/*----------Izquierda----------*/
-
-.izquierda {
-    background-color: rgb(241, 239, 241);
-    border: 1px solid rgb(219, 219, 219);
+.formizquierda,
+.formderecha {
     padding: 5%;
-    height: 80%;
-    width: 35%;
 }
 
-.izquierda h2 {
-    text-align: center;
-    font-size: 22px;
-    margin-bottom: 5%;
+
+/*---- form izquierda --- */
+
+.nombres input,
+.city,
+.paises {
+    width: 13vw;
+}
+
+.mail,
+.street {
+    width: 29vw;
 }
 
 .nombres,
@@ -115,36 +144,22 @@ select {
     justify-content: space-between;
 }
 
-.nombres input,
-.city,
-.paises {
-    width: 170px;
-}
-
-.mail,
-.street {
-    width: 95%;
-}
-
 .cod {
     background-color: rgb(206, 206, 206);
     border: none;
-    padding: 10px;
     margin: 0;
 }
 
 .telf {
     border: none;
-    padding: 10px;
     margin: 0;
 }
 
 .telefono {
     border: 1px solid rgb(175, 175, 175);
-    padding: 0;
-    margin: 0;
     background-color: white;
     border-radius: 2px;
+    margin-left: 5px;
 }
 
 .telefono:hover {
@@ -155,36 +170,73 @@ select {
 /*----------------------------*/
 
 
-/*----------Derecha-----------*/
+/*-------form derecha---------*/
 
-.derecha {
-    height: 80%;
-    width: 35%;
-}
-
-.contenido {
-    background-color: rgb(241, 239, 241);
-    border: 1px solid rgb(219, 219, 219);
-    padding: 15%;
-    height: 50%;
-    width: 100%;
-}
-
-.contenido h2 {
+.options {
+    display: flex;
+    justify-content: space-evenly;
     text-align: center;
-    font-size: 22px;
-    margin-bottom: 5%;
+    align-items: center;
 }
 
-
-/* position: absolute;
-    top: 100px;
+.cuadrado {
+    width: 13vw;
+    height: 10.5vh;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(211, 211, 211);
+    border-radius: 3px;
+    position: relative;
 }
 
-.derecha form {
+.cuadrado:active {
+    background-color: mediumpurple;
+    border: 1px solid rgb(103, 44, 221);
+}
+
+.cuadrado:active h3 {
+    color: white;
+}
+
+.cuadrado:active p {
+    color: rgb(103, 44, 221);
+}
+
+.cuadrado p {
+    font-size: 15;
+    padding: 0;
     position: absolute;
-    bottom: 100px;
-} */
+    bottom: 20%;
+    left: 38%;
+}
+
+.cuadrado h3 {
+    font-size: 30px;
+    position: absolute;
+    left: 45%;
+    top: 20%;
+    color: mediumpurple;
+}
+
+.estimated {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    margin-left: 1vw;
+}
 
 
 /*----------------------------*/
+
+.form {
+    margin-top: 5vh;
+}
+
+.botonconfirm {
+    margin-top: 3vh;
+    width: 100%;
+    height: 12vh;
+    background-color: mediumpurple;
+    color: white;
+    border: 1px solid mediumpurple;
+    font-weight: bold;
+    border-radius: 3px;
+}
