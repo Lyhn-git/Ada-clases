@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Sen', sans-serif;
+    font-stretch: semi-condensed;
+}
+
+body {
+    text-align: center;
+    width: 100vw;
+    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(44, 44, 44);
+}
+
+header a:visited {
+    color: initial;
+}
+
+
+/*-------Header-------*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 60vw;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 35px;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 10px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(94, 94, 94);
+}
+
+.proj {
+    border-bottom: 2px solid rgb(255, 94, 0);
+}
+
+
+/*----------------------*/
+
+.presentacion {
+    text-align: left;
+    width: 60vw;
+    padding-top: 10vh;
+}
+
+.presentacion h1 {
+    font-size: 45px;
+}
+
+.presentacion p {
+    font-size: 18px;
+    color: rgb(141, 141, 141);
+    padding-top: 2vh;
+}
+
+
+/*----------------------*/
+
+
+/*-------Portafolio---------*/
+
+.portfolio {
+    width: 20vw;
+    height: 200vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 10vh;
+}
+
+.portfolio img {
+    width: 500px;
+    margin: 10px;
+    height: auto;
+}
+
+.portfolio img:hover {
+    background-color: rgba(255, 94, 0, 0.315);
+}
+
+
+/*----------------------*/
+
+
+/*--------footer--------*/
+
+footer {
+    margin-top: 10vh;
+    display: flex;
+    justify-content: space-between;
+    width: 60vw;
+    align-items: center;
+    text-align: left;
+    margin-bottom: 10vh;
+}
+
+.footerleft {
+    color: rgb(190, 190, 190);
+}
+
+.footerleft h1 {
+    font-size: 35px;
+    color: rgb(117, 117, 124);
+}
+
+.footerleft h3 {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    font-size: 20px;
+}
+
+.footerleft p {
+    font-size: 15px;
+}
+
+footer p a {
+    text-decoration: none;
+    color: rgb(190, 190, 190);
+}
+
+footer p a:hover {
+    color: rgb(112, 112, 112);
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icons {
+    display: flex;
+}
+
+footer a img {
+    margin-right: 10px;
+}
+
+
+/*----------------------*/
