@@ -1,0 +1,554 @@
+@font-face {
+    font-family: 'Proxima Nova';
+    font-weight: normal;
+    src: url('fonts/Proxima\ Nova\ Regular.otf');
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    font-weight: lighter;
+    src: url('fonts/Proxima\ Nova\ Thin.otf');
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    font-weight: bold;
+    src: url('fonts/Proxima\ Nova\ Bold.otf');
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    font-weight: normal;
+    src: url('fonts/Proxima\ Nova\ Extrabold.otf');
+}
+
+a:visited {
+    color: initial;
+}
+
+body {
+    background: rgb(179, 0, 162);
+    background: linear-gradient(90deg, rgba(179, 0, 162, 1) 0%, rgba(124, 50, 170, 1) 100%);
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    background-color: white;
+    width: 80vw;
+    height: 160vh;
+    border-radius: 5vw;
+    margin-top: 80px;
+    position: relative;
+}
+
+header {
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.logo {
+    position: relative;
+    margin: 15px;
+    width: 160px;
+    height: 100px;
+    /* background-color: gray; */
+}
+
+.logo i {
+    font-size: 60px;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    background: rgb(149, 118, 204);
+    background: linear-gradient(127deg, rgba(149, 118, 204, 1) 27%, rgba(189, 1, 125, 1) 84%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.logo h1 {
+    font-size: 30px;
+    font-family: 'Proxima Nova';
+    font-weight: bold;
+    src: url('fonts/Proxima\ Nova\ Bold.otf');
+    letter-spacing: 0.2em;
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+    color: rgb(43, 9, 88);
+}
+
+.logo h2 {
+    font-size: 15px;
+    font-family: 'Proxima Nova';
+    font-weight: normal;
+    src: url('fonts/Proxima\ Nova\ Regular.otf');
+    letter-spacing: 0.3em;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: rgb(161, 161, 161);
+}
+
+.menu {
+    margin-top: 15px;
+}
+
+.menu p {
+    font-family: 'Proxima Nova';
+    font-weight: lighter;
+    src: url('fonts/Proxima\ Nova\ Thin.otf');
+    color: rgb(148, 148, 148);
+    font-size: small;
+}
+
+.menu p a {
+    text-decoration: none;
+    color: rgba(17, 16, 24, 0.863);
+}
+
+.sbar {
+    border-radius: 15px;
+    padding: 10px;
+    border: 1px solid rgb(170, 170, 170);
+    width: 290px;
+    color: rgb(170, 170, 170);
+}
+
+.circulo {
+    width: 70px;
+    height: 140px;
+    /* background-color: gray; */
+    position: relative;
+}
+
+.cir {
+    background-color: white;
+    border-radius: 50%;
+    padding: 6px;
+    border: 0.5px solid rgba(151, 151, 151, 0.253);
+    position: absolute;
+    bottom: 20px;
+}
+
+.cirOne {
+    bottom: 50px;
+}
+
+.cirTwo {
+    bottom: 35px;
+}
+
+.cirThree {
+    bottom: 20px;
+}
+
+.circulo img {
+    max-width: 50px;
+}
+
+.carrito {
+    height: 90px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 15px rgb(172, 172, 172);
+    position: relative;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 28px;
+    width: 200px;
+    background-color: rgba(13, 0, 54, 0.719);
+    color: rgba(255, 255, 255, 0.726);
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+.info a {
+    color: white;
+    text-decoration: underline dotted rgb(255, 255, 255);
+}
+
+.carrito button {
+    border: none;
+    font-size: 11.5px;
+    letter-spacing: 0.15em;
+    padding: 10px;
+    padding-left: 55px;
+    padding-right: 55px;
+    color: rgba(255, 255, 255, 0.835);
+    border-radius: 10px;
+    background: rgb(149, 118, 204);
+    background: linear-gradient(127deg, rgba(149, 118, 204, 1) 27%, rgba(189, 1, 125, 1) 84%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    position: absolute;
+    bottom: 12px;
+    left: 9%;
+}
+
+.hero {
+    background-color: rgba(187, 187, 187, 0.267);
+    height: 55vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btm {
+    border: none;
+    height: 50px;
+    padding-left: 180px;
+    padding-right: 15px;
+    border-radius: 15px;
+    background: rgba(26, 18, 51, 0.767);
+    position: absolute;
+    top: 40px;
+    left: -25px;
+    overflow: hidden;
+    color: rgba(255, 255, 255, 0.835);
+    display: flex;
+    align-items: center;
+}
+
+.btm p {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+.btm i {
+    font-size: 17px;
+    transform: rotate(270deg);
+    margin-right: 3px;
+}
+
+.left img {
+    max-width: 380px;
+}
+
+.front {
+    background-color: white;
+    border-radius: 50%;
+    padding: 30px;
+    border: 0.5px solid rgba(151, 151, 151, 0.253);
+    position: absolute;
+    bottom: -60px;
+    right: 0;
+}
+
+.right h1 {
+    font-family: 'Proxima Nova';
+    font-weight: lighter;
+    src: url('fonts/Proxima\ Nova\ Thin.otf');
+    font-size: 50px;
+    color: rgb(13, 0, 54);
+}
+
+.peppers i {
+    color: rgb(172, 16, 68);
+}
+
+.peppers i:last-child {
+    color: gray;
+}
+
+.text {
+    width: 20vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    color: rgba(64, 64, 65, 0.781);
+}
+
+.botones {
+    width: 20vw;
+    height: 12vh;
+    /*  background-color: gray; */
+    display: flex;
+    flex-direction: column;
+}
+
+.fila {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cantidad {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 7px grey;
+    width: 10vw;
+    height: 4vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+.cantidad p {
+    color: rgb(24, 23, 26);
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    border-left: 1px solid rgba(128, 128, 128, 0.452);
+    border-right: 1px solid rgba(128, 128, 128, 0.452);
+    width: 4vw;
+    text-align: center;
+}
+
+.cantidad button {
+    width: 3vw;
+    border: none;
+    font-size: 20px;
+    color: rgb(24, 23, 26);
+    background-color: white;
+}
+
+.price {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 7px grey;
+    width: 8vw;
+    height: 4vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+.price p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: rgba(64, 64, 65, 0.781);
+}
+
+.price p span {
+    color: rgb(202, 0, 141);
+    font-weight: 700;
+}
+
+.add {
+    border: none;
+    font-size: 14px;
+    letter-spacing: 0.15em;
+    padding: 12px;
+    color: rgba(255, 255, 255, 0.835);
+    border-radius: 10px;
+    background: rgb(149, 118, 204);
+    background: linear-gradient(127deg, rgba(149, 118, 204, 1) 27%, rgba(189, 1, 125, 1) 84%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    margin-top: 1.5vh;
+}
+
+.right {
+    position: relative;
+    height: 55vh;
+    margin-right: 12vw;
+}
+
+.left {
+    width: 38vw;
+    height: 55vh;
+    position: relative;
+    overflow: hidden;
+    /*background-color: grey; */
+}
+
+.grams {
+    width: 25vw;
+    height: 15vh;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 15px rgba(128, 128, 128, 0.644);
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    left: 0;
+    bottom: -5vh;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.grams span {
+    width: 7vw;
+    height: 6vh;
+    /* background-color: grey; */
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.grams span p {
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.grams span i {
+    font-size: 25px;
+    color: rgba(92, 43, 226, 0.719);
+    margin-right: 5px;
+    margin-left: 7px;
+}
+
+.cards {
+    height: 40vh;
+}
+
+.map {
+    height: 5vh;
+    padding-left: 5vw;
+    padding-top: 1vh;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.map a {
+    color: rgba(128, 128, 128, 0.904);
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.map a:last-child {
+    color: rgba(128, 128, 128, 0.466);
+}
+
+.map i {
+    color: rgba(128, 128, 128, 0.767);
+    transform: rotate(90deg);
+    margin-right: 10px;
+}
+
+.nav {
+    margin-left: 5vw;
+    display: flex;
+    width: 65vw;
+    height: 7vh;
+    color: rgba(56, 37, 117, 0.726);
+    justify-content: left;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.698);
+}
+
+.nav h3 {
+    margin-right: 10vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+.nav h3:first-child {
+    border-bottom: 4px solid rgba(46, 37, 126, 0.726);
+}
+
+.card-conteiner {
+    height: 30vh;
+    width: 70vw;
+    /* background-color: gray; */
+    padding: 5vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.card img {
+    max-width: 120px;
+    border: 5px solid white;
+    box-shadow: 1px 1px 5px rgba(128, 128, 128, 0.527);
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: 3vw;
+    background-color: white;
+}
+
+.card {
+    background-color: white;
+    width: 14vw;
+    height: 28vh;
+    position: relative;
+    border-radius: 15px;
+    box-shadow: 1px 1px 15px rgba(128, 128, 128, 0.705);
+}
+
+.card a i {
+    color: rgba(128, 128, 128, 0.699);
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.card h2 {
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(25, 22, 36);
+    text-align: center;
+    width: 15vw;
+    position: absolute;
+    bottom: 11vh;
+}
+
+.card p {
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(111, 110, 117);
+    text-align: center;
+    width: 15vw;
+    position: absolute;
+    bottom: 8vh;
+}
+
+.price {
+    width: 2.5vw;
+    height: 3vh;
+    position: absolute;
+    bottom: 4vh;
+    color: rgba(128, 128, 128, 0.87);
+    border: 0.4px solid rgb(221, 213, 213);
+    box-shadow: none;
+    border-radius: 0;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding-right: 0.5vw;
+    left: 6vw;
+}
+
+.card button {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(226, 43, 104);
+    color: white;
+    box-shadow: 1px 1px 7px rgba(128, 128, 128, 0.472);
+    position: absolute;
+    bottom: -30px;
+    font-size: 30px;
+    left: 6vw;
+    border: none;
+}
+
+.bk {
+    height: 14vh;
+    width: 80vw;
+    background-color: rgba(128, 128, 128, 0.116);
+    z-index: 0;
+    position: absolute;
+    top: 20vh;
+    left: 0vw;
+}

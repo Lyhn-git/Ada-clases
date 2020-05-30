@@ -1,0 +1,110 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    background: brown;
+    color: white;
+    opacity: 0.2;
+    width: 50vh;
+    /*NO FUNCIONA CON width:auto; */
+    /*transition-property: background;
+    transition-duration: 0.5s;
+    transition-timing-function: linear; */
+    transition: background 0.5s linear, opacity 0.5s linear, width 0.5s linear;
+    /* Se coloca la propiedad de transición en el h1
+    y no en el hover porque se quiere que el efecto
+    salga siempre, no solo cuando se hace hover */
+}
+
+h1:hover {
+    background: coral;
+    opacity: 1;
+    width: 70vh;
+}
+
+button {
+    width: 5vw;
+    height: 3vh;
+    border-radius: 10px;
+    color: white;
+}
+
+.rote {
+    background: purple;
+    transition: background 0.5s linear, transform 0.5s linear;
+}
+
+.rote:focus {
+    background: darkgoldenrod;
+    transform: rotate(90deg);
+}
+
+.move {
+    background: blue;
+    transition: background 0.5s linear, transform 0.5s linear;
+}
+
+.move:focus {
+    background: orangered;
+    transform: translate(100px, 200px);
+}
+
+.skew {
+    background: red;
+    transition: background 0.5s linear, transform 0.5s linear;
+}
+
+.skew:focus {
+    background: green;
+    transform: skew(40deg);
+}
+
+.scal {
+    background: grey;
+    transition: background 0.5s linear, transform 0.5s linear;
+}
+
+.scal:focus {
+    background: black;
+    transform: scale(1.5);
+}
+
+.image-container {
+    display: block;
+    position: relative;
+    width: 200px;
+}
+
+.img {
+    max-width: 100%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(165, 42, 42, 0);
+    transition: background-color 0.5s linear;
+}
+
+.overlay h2 {
+    opacity: 0;
+    transition: opacity 0.6s linear;
+}
+
+.image-container:hover .overlay {
+    background-color: rgba(165, 42, 42, 0.5);
+}
+
+.image-container:hover .overlay h2 {
+    opacity: 1;
+}
