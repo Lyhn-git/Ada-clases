@@ -1,0 +1,159 @@
+/* Breakpoint de mobile 1 */
+
+@media (min-width: 320px) {
+    body {
+        height: 100vh;
+        width: 100vw;
+        background-color: rgba(187, 165, 103, 0.349);
+        margin: 0;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+    }
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        height: 10vh;
+    }
+    header .pokeball {
+        max-width: 50px;
+    }
+    header h1 {
+        display: flex;
+        align-items: center;
+        font-family: 'Baloo Chettan 2', cursive;
+        margin-left: 20px;
+    }
+    .buttons {
+        display: flex;
+        width: 20%;
+        justify-content: center;
+        align-items: center;
+    }
+    /* ------ Menu ------ */
+    .menu ul {
+        display: none;
+    }
+    .burger {
+        font-size: 30px;
+        color: rgb(190, 164, 93);
+        background: none;
+        border: none;
+        text-shadow: 0px 1px 2px gray;
+    }
+    /* ------ Botón ------ */
+    .signout {
+        display: none;
+    }
+    /* ------------------ */
+}
+
+
+/* Breakpoint de mobile 2 */
+
+@media (min-width: 414px) {}
+
+
+/* Breakpoint de tablet */
+
+@media (min-width: 768px) {
+    .buttons {
+        width: 25%;
+    }
+    .signout {
+        display: block;
+        width: 10vw;
+        height: 5vh;
+        color: rgb(151, 9, 9);
+        background: none;
+        border: none;
+        font-size: 35px;
+        text-align: center;
+    }
+    .menu i {
+        font-size: 40px;
+        color: rgb(190, 164, 93);
+        text-shadow: 0px 1px 2px gray;
+    }
+}
+
+
+/* Breakpoint de desktop/tablet */
+
+@media (min-width: 955px) {
+    .buttons {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+    .burger {
+        display: none;
+    }
+    .buttons {
+        width: 70%;
+    }
+    /*----------------Menu-------------*/
+    .menu ul {
+        display: inline-block;
+    }
+    ul {
+        list-style: none;
+    }
+    .nav li a,
+    .links {
+        text-align: start;
+        text-shadow: 0px 1px 4px black;
+        color: rgb(255, 0, 0);
+        text-decoration: none;
+        padding: 10px 15px;
+        display: block;
+        font-size: 1em;
+    }
+    .nav li ul {
+        display: none;
+        position: absolute;
+        min-width: 140px;
+        overflow: hidden;
+    }
+    .nav li ul li {
+        border-top: solid;
+        border-width: 1px;
+        border-color: #ff0000;
+        background-color: rgba(54, 54, 54, 0.678)
+    }
+    .nav li ul li a {
+        font-size: 1em;
+        color: white;
+    }
+    .nav li:hover ul {
+        display: block;
+        z-index: 500;
+    }
+    .nav li li {
+        display: block;
+    }
+    .nav li ul li:hover,
+    .nav li ul li:focus ul {
+        background-color: rgba(17, 17, 17, 0.2);
+        z-index: 500;
+    }
+    .nav>li {
+        float: left;
+    }
+    /*---------------------------------*/
+}
+
+
+/* Breakpoint de desktop */
+
+@media (min-width: 1024px) {}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    text-decoration: none
+}
